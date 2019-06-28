@@ -4,15 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnLeftParenthesis, btnRightParenthesis, btnPercent, btnClear, btnDivide, btnMultiply, btnAdd, btnSubtract, btnDecimal, btnEquals;
-    Button btnZero, btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven, btnEight, btnNine;
-    TextView calcDisplayTextView;
+    MaterialButton btnLeftParenthesis, btnRightParenthesis, btnPercent, btnClear, btnDivide, btnMultiply, btnAdd, btnSubtract, btnDecimal, btnEquals;
+    MaterialButton btnZero, btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven, btnEight, btnNine;
+    TextInputEditText calcDisplayTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
